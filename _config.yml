@@ -13,18 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-lang: en-US
-title: My Awesome Site
+lang: zh-CN
+title: 卢静仪的jekyll网站
 email:
-description:
-baseurl: # the optional subpath of your site, e.g. "/blog"
+description: 卢静仪架设的jekyll网站，用于网页设计与制作课程期末项目
+baseurl: "LJY_blog"# the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:
+  name: “卢静仪”
   twitter:
   picture:
 twitter_username:
-github_username:
+github_username:小烫
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: # true, false (default)
 search_full_content: false # true, false (default)
