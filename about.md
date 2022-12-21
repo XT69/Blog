@@ -9,3 +9,5 @@ title: 关于我
 - 下象棋
 - 参观博物馆
 - 听歌和看电影
+### 个人作品
+- [个人简历](https://small-perm.gitee.io/resume)
