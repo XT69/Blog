@@ -29,6 +29,6 @@ fork的具体操作可以参考[Tengzyi师兄](https://tengzyi.gitee.io/tengzyi/
 ##### 这样markdown就成功啦
 
 ##### 以下是以为网友整理出来的markdown详细的语法
-[Markdown](https://gitee.com/-/ide/project/Tengzyi/Tengzyi/edit/gh-pages/-/_posts/2019-6-27-Web_jekyll.md)
+[Markdown](https://blog.csdn.net/witnessai1/article/details/52551362?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167181171416800186579636%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167181171416800186579636&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-52551362-null-null.142^v68^pc_new_rank,201^v4^add_ask,213^v2^t3_esquery_v1&utm_term=markdown%E8%AF%AD%E6%B3%95&spm=1018.2226.3001.4187)
 
 *这篇保姆级教程的Markdown，相信各位看完后，都会在实际操作中得心应手吧*
