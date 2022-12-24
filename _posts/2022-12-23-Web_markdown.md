@@ -17,7 +17,7 @@ fork的具体操作可以参考[Tengzyi师兄](https://tengzyi.gitee.io/tengzyi/
 - 接着，点击要修改的文件进行修改
 - 然后按图片上的步骤，先点缓存，接着commit
 
-![Web IDE的使用](/assets/images/Web IDE.jpg)
+![Web IDE的使用](/assets/images/sctpff.png)
 
 - 最后记得提交，部署，观察前端的内容变化
 
