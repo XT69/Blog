@@ -14,7 +14,7 @@ categories:
 
 其扩展部分还有画板工具
 
-![移动工具](/assets/images/yidong.png)
+![]({{site.baseurl}}/assets/images/yidong.png)
 
 * 取消自动选择：只能移动当前图层
 * 勾选显示变换控件：可变换图层形状
@@ -24,7 +24,7 @@ categories:
 
 其扩展部分有矩形、椭圆、单行、单列，按住shift 可画出正方形和正圆。
 
-![选框工具](/assets/images/xuankuang.png)
+![]({{site.baseurl}}/assets/images/xuankuang.png)
 
 * 选区：可选择新选区、添加到选区、从选区减去、与选区交叉。
 * 羽化：指选择区边缘的柔和程度，值越大越模糊。
@@ -42,7 +42,7 @@ categories:
 
 其扩展部分还有快速选择工具
 
-![魔棒工具](/assets/images/mobang.png)
+![]({{site.baseurl}}/assets/images/mobang.png)
 
 * 容差值： 越大颜色允许的范围越大
 * 勾选消除锯齿：选择范围没有锯齿
@@ -53,7 +53,7 @@ categories:
 
 其扩展部分还有透视裁剪工具、切片工具、切片选择工具。ESC为取消裁剪，回车则是确定裁剪
 
-![裁剪工具](/assets/images/caijian.png)
+![]({{site.baseurl}}/assets/images/caijian.png)
 
 * 比例：可以1：1裁剪，点击清除可重新赋值。展开后有其他的选择自行尝试。
 * 将鼠标放到裁剪区域外拖动，可旋转图像。

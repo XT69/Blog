@@ -15,13 +15,13 @@ categories:
 
 点在设计中是画面的信息及点缀，装饰平衡，起到活跃画面，丰富内容，强调主题等作用
 
-![点](/assets/images/dian.jpeg)
+![]{{site.baseurl}}(/assets/images/dian.jpeg)
 
 ### 线
 
 线有多种表现形式：横线（稳定）、竖线（笔直）、斜线（动感）、弧线（柔美），在设计中是画面的信息及方向引导，造型，分割信息
 
-![线](/assets/images/xian.jpg)
+![]({{site.baseurl}}/assets/images/xian.jpg)
 
 ### 面
 

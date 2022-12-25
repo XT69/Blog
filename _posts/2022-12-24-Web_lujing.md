@@ -31,13 +31,13 @@ D:\web\html\img\p1.jpg
 
 要在login.html中引用p1.jpg,用相对路径表示为
 
-![相对路径](/assets/images/xiangdui.png)
+![]({{site.baseurl}}/assets/images/xiangdui.png)
 
 ## 什么是相对路径
 
 * 绝对路径是指文件在硬盘上真正存在的路径。之所以成为绝对，意指当所有网页引用同一文件时，所引用的路径都是一样的。
 * 上面的栗子用绝对路径表示为
 
-![绝对路径](/assets/images/juedui.png)
+![]({{site.baseurl}}/assets/images/juedui.png)
 
 ##### 好啦，看完文章后，你学废了如何用相对路径和绝对路径了吗？
