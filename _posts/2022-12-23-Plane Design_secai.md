@@ -12,11 +12,11 @@ categories:
 * 首先，我们要知道色彩分为无彩色和有彩色，无彩色就是指黑白灰的颜色，其余的则是有彩色
 * 色调和色彩一样分为无彩色和有彩色两部分，以下是它的划分
 
-![色调的划分](/assets/images/sediao.png)
+![](/assets/images/sediao.png)
 
 色调分为八部分：
 
-![色调的划分](/assets/images/sediaohuafen.png)
+![](/assets/images/sediaohuafen.png)
 
 ### 色彩具有两面性
 * 纯色调
