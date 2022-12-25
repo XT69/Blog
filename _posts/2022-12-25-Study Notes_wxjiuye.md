@@ -35,8 +35,8 @@ categories:
 
 参考：
 
-[运营管理]（https://www.jianshu.com/p/a192c5671a8a）
+[运营管理](https://www.jianshu.com/p/a192c5671a8a)
 
-[产品设计]（https://www.jianshu.com/p/e3267d25fc51）
+[产品设计](https://www.jianshu.com/p/e3267d25fc51)
 
-[前端开发]（https://www.jianshu.com/p/a2de27f2cd17）
+[前端开发](https://www.jianshu.com/p/a2de27f2cd17)
