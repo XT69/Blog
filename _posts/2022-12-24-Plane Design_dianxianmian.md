@@ -15,7 +15,7 @@ categories:
 
 点在设计中是画面的信息及点缀，装饰平衡，起到活跃画面，丰富内容，强调主题等作用
 
-![]{{site.baseurl}}(/assets/images/dian.jpeg)
+![]({{site.baseurl}}/assets/images/dian.jpeg)
 
 ### 线
 
