@@ -10,12 +10,9 @@ tags:
 <!--more-->
 
 * 正方形有规律的绕着轨道旋转，到起点时又倒着转回去
-
+<head>
+  <meta charset="UTF-8">
 	 <style>
-     .body {
-	width:600px;
-	height:600px;
-}
 			div{
 				width: 100px;
 				height: 100px;
@@ -31,8 +28,11 @@ tags:
 				75%{background: lightgreen;left: 0px;top:200px;}
 				100%{background: lightsalmon;left: 0px;top:0px;}
 			}
+				.demo1:hover {
+	    width: 400px;
+	}
 		</style>
 	</head>
-	<body>
-		<div></div>
-	</body>
+  <body>
+	  <div class="demo1"></div>
+   </body>
