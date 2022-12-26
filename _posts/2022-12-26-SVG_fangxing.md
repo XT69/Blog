@@ -14,8 +14,8 @@ tags:
 *动画效果：变色 移动 倒转*
 
 <head>
-		<meta charset="utf-8">
-		<style>
+  <meta charset="utf-8">
+  <style>
 			div{
 				width: 100px;
 				height: 100px;
@@ -34,7 +34,7 @@ tags:
 		</style>
 	</head>
 	<body>
-		<div></div>
+       <div></div>
 	</body>
 
 #### scale+transition-delay的混合效果
@@ -42,8 +42,8 @@ tags:
 *动画效果：变大 缩放 变色*
 
 <head>
-		<meta charset="utf-8">
-		<style>
+   <meta charset="utf-8">
+   <style>
 		div{
 			width:200px;
 			height:200px;
@@ -70,9 +70,9 @@ tags:
 
 *动画效果：变大 旋转 变色*
 
-	<head>
-		<meta charset="utf-8">
-		<style>
+<head>
+  <meta charset="utf-8">
+   <style>
 		div{
 			width:200px;
 			height:200px;
