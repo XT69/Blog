@@ -1,38 +1,56 @@
 ---
-title: 不停转圈的方形
+title: 永不停歇地旋转
 excerpt_separator: "<!--more-->"
 categories:
     - SVG制作
 tags:
     - SVG
 ---
-标签: SVG制作 变色 移动 倒转  Markdown
+标签: SVG制作 变色 旋转  Markdown
 <!--more-->
 
-* 正方形有规律的绕着轨道旋转，到起点时又倒着转回去
-<head>
-  <meta charset="UTF-8">
+* 渐变的线条绕着图形边框一直旋转
 	 <style>
-			div{
-				width: 100px;
-				height: 100px;
-				background: lightcyan;
-				position: relative;
-				animation: myfirst 5s infinite;
-				animation-direction:alternate;
-			}
-			@keyframes myfirst{
-				0%{background: lavenderblush;left: 0px;top:0px;}
-				25%{background: lightgoldenrodyellow;left: 200px;top:0px;}
-				50%{background:lightpink;left: 200px;top:200px;}
-				75%{background: lightgreen;left: 0px;top:200px;}
-				100%{background: lightsalmon;left: 0px;top:0px;}
-			}
-				.demo1:hover {
-	    width: 400px;
-	}
+			html {
+  height: 100%;
+  background: #223;
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  --border-size: 3px;
+  --border-angle: 0turn;
+  width: 60vmin;
+  height: 50vmin;
+  background-image: conic-gradient(
+      from var(--border-angle),
+      #213,
+      #112 50%,
+      #213
+    ),
+    conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-size: calc(100% - (var(--border-size) * 2))
+      calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  animation: bg-spin 3s linear infinite;
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
 		</style>
-	</head>
-  <body>
-	  <div class="demo1"></div>
-   </body>
+
+  <div class="box"></div>
