@@ -10,8 +10,10 @@ tags:
 <!--more-->
 
 * 渐变的线条绕着图形边框一直旋转
+
+
 	 <style>
-			html {
+		html {
   height: 100%;
   background: #223;
   display: grid;
@@ -42,10 +44,12 @@ tags:
       --border-angle: 1turn;
     }
   }
+
   &:hover {
     animation-play-state: paused;
   }
 }
+
 @property --border-angle {
   syntax: "<angle>";
   inherits: true;
