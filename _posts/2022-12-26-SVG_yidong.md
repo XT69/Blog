@@ -1,60 +1,64 @@
 ---
-title: 永不停歇地旋转
+title: 能够缩放的方形
 excerpt_separator: "<!--more-->"
 categories:
     - SVG制作
 tags:
     - SVG
 ---
-标签: SVG制作 变色 旋转  Markdown
+标签: SVG制作 缩放  Markdown
 <!--more-->
 
-* 渐变的线条绕着图形边框一直旋转
+* 鼠标放到图形上后，图形缩小
 
 
-	 <style>
-		html {
-  height: 100%;
-  background: #223;
-  display: grid;
-  place-items: center;
+	 <style> 
+.fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
+ background-color:#00506b;}
+
+.style_prevu_kit
+{
+    display:inline-block;
+    border:0;
+    width:96px;
+    height:110px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
 }
-
-.box {
-  --border-size: 3px;
-  --border-angle: 0turn;
-  width: 60vmin;
-  height: 50vmin;
-  background-image: conic-gradient(
-      from var(--border-angle),
-      #213,
-      #112 50%,
-      #213
-    ),
-    conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
-  background-size: calc(100% - (var(--border-size) * 2))
-      calc(100% - (var(--border-size) * 2)),
-    cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-
-  animation: bg-spin 3s linear infinite;
-  @keyframes bg-spin {
-    to {
-      --border-angle: 1turn;
-    }
-  }
-
-  &:hover {
-    animation-play-state: paused;
-  }
-}
-
-@property --border-angle {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0turn;
+.style_prevu_kit:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(0.6);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(0.6);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(0.6);
+    transition: all 200ms ease-in;
+    transform: scale(0.6);
 }
 		</style>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
 
-  <div class="box"></div>
+<div style="width:500px;">
+
+<div class="style_prevu_kit" style="background-color:#ffdbfe;"></div>
+<div class="style_prevu_kit" style="background-color:#f3ff6f;"></div>
+<div class="style_prevu_kit" style="background-color:#c8fa10;"></div>
+<div class="style_prevu_kit" style="background-color:#00fcec;"></div>
+<div class="style_prevu_kit" style="background-color:#a001fc;"></div>
+
+
+<div style=" padding:5px; color:#b5e6e3; font-weight:300; font-size:30px; font-family:'Roboto';padding-top:20px;">CSS <font style="font-weight:400;">HOVER</font></div>
+        <a href="http://www.wifeo.com/code" style="text-decoration:none;" target="_blank"><div style="  color:#b5e6e3; font-weight:300; font-size:20px; font-family:'Roboto';">www.wifeo.com/code</div></a>
+  
+</div>
