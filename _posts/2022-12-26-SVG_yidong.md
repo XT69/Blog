@@ -13,8 +13,7 @@ tags:
 
 
 <style>
-    .fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
- background-color:#00506b;}
+
 
 .style_prevu_kit
 {
@@ -25,16 +24,16 @@ tags:
     position: relative;
     -webkit-transition:  200ms ease-in-out;
     -webkit-transform: scale(1); 
-	-webkit-transition-duration:4s;
+	-webkit-transition-duration:1s;
     -ms-transition:  200ms ease-in-out;
-	-webkit-transition-duration:4s;
+	-webkit-transition-duration:1s;
     -ms-transform: scale(1); 
     -moz-transition:  200ms ease-in-out;
-	-webkit-transition-duration:4s;
+	-webkit-transition-duration:1s;
     -moz-transform: scale(1);
     transition:  200ms ease-in-out;
     transform: scale(1); 
-	-webkit-transition-duration:4s;
+	-webkit-transition-duration:1s;
 
 }
 .style_prevu_kit:hover
@@ -43,7 +42,7 @@ tags:
     z-index: 2;
     -webkit-transition:  200ms ease-in-out;
     -webkit-transform: scale(0.6);
-	-webkit-transition-duration:4s;
+	-webkit-transition-duration:1s;
     -ms-transition:  200ms ease-in-out;
     -ms-transform: scale(0.6);   
     -moz-transition:  200ms ease-in-out; 
@@ -55,7 +54,7 @@ tags:
 
 <link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
 
-<div align="center" class="fond">
+
 <div style="width:500px;">
 
 <div class="style_prevu_kit" style="background-color:#ffdbfe;"></div>
@@ -69,6 +68,6 @@ tags:
         <a href="http://www.wifeo.com/code" style="text-decoration:none;" target="_blank"><div style="  color:#b5e6e3; font-weight:300; font-size:20px; font-family:'Roboto';">www.wifeo.com/code</div></a>
   
 </div>
-</div>
+
 <!-- partial -->
   <script  src="./script.js"></script>
