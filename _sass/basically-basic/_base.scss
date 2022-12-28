@@ -57,6 +57,10 @@ h6 {
   text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
 }
 
+h1{
+  color:rgb(255, 230, 249)
+}
+
 h1 {
   @include fluid-type($min-vw, $max-vw, $h1-min, $h1-max);
 }
